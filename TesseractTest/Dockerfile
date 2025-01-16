@@ -4,7 +4,7 @@ FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build-env
 # Install Tesseract and its dependencies
 RUN apt-get update && \
     apt-get install -y tesseract-ocr libtesseract-dev wget && \
-    rm -rf /var/lib/apt/lists/*
+    rm -rf /var/lib/apt/lists/* 
 
 # Set the working directory in the container
 WORKDIR /app
