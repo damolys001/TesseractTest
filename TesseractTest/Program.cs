@@ -9,8 +9,6 @@
 //    }
 //}
 
-
-
 using System;
 using Tesseract;
 
