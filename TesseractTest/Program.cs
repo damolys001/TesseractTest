@@ -10,10 +10,6 @@
 //}
 
 
-
-
-
-
 using System;
 using Tesseract;
 
